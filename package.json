@@ -1,0 +1,24 @@
+{
+  "name": "mcp-claude-connect-desktop-app",
+  "version": "1.0.0",
+  "description": "MCP server cho phép Claude Code tương tác với Windows desktop - mở ứng dụng, tìm file, tìm kiếm web, clipboard, v.v.",
+  "main": "index.js",
+  "bin": {
+    "mcp-desktop": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mcp", "claude", "desktop", "windows", "modelcontextprotocol"],
+  "author": "mrbit-dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrbit-dev/mcp-claude-connect-desktop-app.git"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}
